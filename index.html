@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+    Resumen de Requisitos
+    
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICIOS EN DESARROLLO DE SOFTWARE</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcgdesign.github.io">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Desarrollo de Software</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Servicios enfocados para el Desarrollo de Software</h1>
+            <p class="hero__paragraph">
+                Pagina web enfocada en ofrecer diferentes tipos de servicios de software profesionales.
+            </p>
+            <a href="#servicios" class="cta">Ver servicios</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Qué servicios puedes solicitar?</h2>
+            <p class="about__paragraph">
+                A continuacion encontraras la especializacion de los servicios de cada integrante del equipo el cual se encargara de brindarte la mejor atención.
+            </p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">Diseño y Modelado de objetos en 3D</h3>
+                    <p class="about__paragrah">
+                        Alan Giovanni
+                        <br>
+                        Aguayo Sanchez
+                    </p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 class="about__title">Automatización de Procesos</h3>
+                    <p class="about__paragrah">
+                        Luis David
+                        <br>
+                        Garcia Ramirez
+                    </p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">Desarrollo de Aplicaciones Web</h3>
+                    <p class="about__paragrah">
+                        Edgar Gabriel
+                        <br>
+                        Martinez Hernandez
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Ing. Alan Giovanni Aguayo Sanchez
+                            <span class="testimony__course">
+                                <small>Diseño y Modelado de objetos 3D</small>
+                            </span>
+                        </h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
+                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Ing. Luis David Garcia Ramirez
+                            <span class="testimony__course">
+                                <small>Diseñador y Modelador de objetos 3D</small>
+                            </span>
+                        </h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
+                            voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Ing. Edgar Gabriel Martinez Hernandez
+                            <span class="testimony__course">
+                                <small>Diseñador y Modelador de objetos 3D</small>
+                            </span>
+                        </h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section id="servicios" class="questions container">
+            <h2 class="subtitle">Descripción de los servicios</h2>
+            <p class="questions__paragraph">
+                A continuacion encontrara una serie de especificaciones detalladas sobre cada servicio ofrecido en la pagina, estos servicios estan detallados con base en cada ingeniero y sus habilidades en el desarrollo de software.
+            </p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">
+                            Diseño y Modelado de objetos en 3D
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            El modelado 3D consiste en utilizar software para crear una representación matemática de un objeto o forma tridimensional. El objeto creado se denomina modelo 3D y se utiliza en distintas industrias. 
+                            El artista genera primero una primitiva en 3D como, por ejemplo, un plano, un cubo, un cilindro o una esfera, que se compone de numerosos polígonos. A continuación, este objeto se desarrolla mediante diversas herramientas de modelado para cambiar su forma según las nuevas preferencias. El flujo de trabajo consiste en añadir vértices, mientras se ajusta su colocación y se manipula la malla del objeto subdividiendo sus polígonos con el objetivo de crear un nuevo objeto 3D.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">
+                            Automatización de Procesos
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            El principal objetivo de la automatización de procesos es mejorar el progreso del flujo de trabajo en una organización.
+                            Con la automatización, es posible reducir costos, tiempo, desperdicio, aumentar la productividad, minimizar fallas y controlar, en tiempo real, todos los procesos comerciales.
+                            Es posible sustituir las actividades manuales por automatizadas o utilizar software y sistemas para respaldar diferentes actividades.
+                            Para una mejor comprensión, imagine un proceso de solicitud de compra. Realizado de forma "manual", el equipo de Compras debe negociar con los proveedores por teléfono o correo electrónico, esperar las devoluciones, remitirlas al responsable de aprobar los presupuestos y localizar el centro de costos, entre muchas otras operaciones.
+                            Ahora piensa que todos estos procesos están concentrados en un mismo sistema, de forma automatizada. A través de formularios y pasos ya predefinidos y diseñados en la herramienta, todo el flujo de compra organizacional se puede estandarizar y realizar en línea
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Desarrollo de Aplicaciones Web
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                            quam atque?
+                        </p>
+                    </div>
+                </article>
+            </section>
+            <!--
+            <section class="questions__offer">
+                <h2 class="subtitle">Contratar Servicios</h2>
+                <p class="questions__copy">
+                    Si se encuentra interesado en contratar alguno de los servicios ofrecidos no dude en 
+                    contactar con nosotros, estamos a su servicio.
+                </p>
+                <a href="#" class="cta">Contratar</a>
+            </section>
+            -->
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <figure class="knowledge__picture">
+                    <img src="./images/macbook.png" class="knowledge__img">
+                </figure>
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">¿Conoces nuestros Servicios?</h2>
+                    <p class="knowledge__paragraph">
+                        Dentro de nuestra pagina encontrara un extenso repertorio de servicios enfocados en el desarrollo de Software para mejorar la calidad de vida de nuestros clientes brindándole la mejor atención y servicio de nuestra parte, únete a nuestra comunidad y obtén grandes beneficios.
+                    </p>
+                    <a href="#" class="cta">Ver Servicios</a>
+                </div>
+
+            </div>
+        </section>
+
+        
+        <!-- Barra de Pago
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Flexbox</p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Flexbox</p>
+                        <p class="price__features">Layouts</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Grid</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Grid</p>
+                        <p class="price__features">Implicit Grid</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Animaciones</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Animation</p>
+                        <p class="price__features">Transition</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+            </div>
+        </section>
+        -->
+        
+
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Servicios en Desarrollo de Software</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+            -->
+            
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Ajolotes</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

@@ -21,7 +21,6 @@
     <meta name="description"
         content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
 
-
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://alexcgdesign.github.io">
     <meta property="og:title" content="Aprende CSS desde cero">
@@ -47,16 +46,16 @@
 
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Inicio</a>
+                    <a href="#home" class="nav__links">Inicio</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Acerca de</a>
+                    <a href="#desc" class="nav__links">Descripción</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
+                    <a href="#equipo" class="nav__links">Equipo</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Blog</a>
+                    <a href="#servicios" class="nav__links">Servicios</a>
                 </li>
 
                 <img src="./images/close.svg" class="nav__close">
@@ -67,7 +66,7 @@
             </div>
         </nav>
 
-        <section class="hero__container container">
+        <section id="home" class="hero__container container">
             <h1 class="hero__title">Servicios enfocados para el Desarrollo de Software</h1>
             <p class="hero__paragraph">
                 Pagina web enfocada en ofrecer diferentes tipos de servicios de software profesionales.
@@ -77,7 +76,7 @@
     </header>
 
     <main>
-        <section class="container about">
+        <section id="desc" class="container about">
             <h2 class="subtitle">¿Qué servicios puedes solicitar?</h2>
             <p class="about__paragraph">
                 A continuacion encontraras la especializacion de los servicios de cada integrante del equipo el cual se encargara de brindarte la mejor atención.
@@ -117,7 +116,7 @@
             </div>
         </section>
 
-        <section class="testimony">
+        <section id="equipo" class="testimony">
             <div class="testimony__container container">
                 <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
 
@@ -129,9 +128,9 @@
                                 <small>Diseño y Modelado de objetos 3D</small>
                             </span>
                         </h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
-                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <p class="testimony__review">
+                            Ingeniero informático especializado en programación, diseño y producción de objetos 3d para diferentes plataformas. Interesado en la aplicación de motores 3D en el desarrollo de aplicaciones y en la programación de software con modelos 3D.
+                        </p>
                     </div>
 
                     <figure class="testimony__picture">
@@ -144,12 +143,12 @@
                         <h2 class="subtitle">
                             Ing. Luis David Garcia Ramirez
                             <span class="testimony__course">
-                                <small>Diseñador y Modelador de objetos 3D</small>
+                                <small>Automatización de Procesos</small>
                             </span>
                         </h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                            voluptatum!</p>
+                        <p class="testimony__review">
+                            Ingeniero en sistemas, especializado en la automatización de procesos informáticos con la creación de scripts en el lenguaje de programación Python, con el motivo de estandarizar y facilitar procesos repetitivos o largos en la industria.
+                        </p>
                     </div>
 
                     <figure class="testimony__picture">
@@ -162,11 +161,12 @@
                         <h2 class="subtitle">
                             Ing. Edgar Gabriel Martinez Hernandez
                             <span class="testimony__course">
-                                <small>Diseñador y Modelador de objetos 3D</small>
+                                <small>Desarrollo de Aplicaciones Web</small>
                             </span>
                         </h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <p class="testimony__review">
+                            Ingeniero desarrollador con varios años de experiencia en desarrollos web. También me considero una persona resolutiva, con buen ánimo y capaz de resolver problemas fácilmente, he sido capaz de adaptarme a los diferentes planes informáticos de las empresas para las que he trabajado. Adicionalmente, cuento con una gran capacidad de análisis de la información y experiencia en la gestión de equipos.
+                        </p>
                     </div>
 
                     <figure class="testimony__picture">
@@ -193,7 +193,6 @@
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
-
                         <p class="questions__show">
                             El modelado 3D consiste en utilizar software para crear una representación matemática de un objeto o forma tridimensional. El objeto creado se denomina modelo 3D y se utiliza en distintas industrias. 
                             El artista genera primero una primitiva en 3D como, por ejemplo, un plano, un cubo, un cilindro o una esfera, que se compone de numerosos polígonos. A continuación, este objeto se desarrolla mediante diversas herramientas de modelado para cambiar su forma según las nuevas preferencias. El flujo de trabajo consiste en añadir vértices, mientras se ajusta su colocación y se manipula la malla del objeto subdividiendo sus polígonos con el objetivo de crear un nuevo objeto 3D.
@@ -227,31 +226,16 @@
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
-
                         <p class="questions__show">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?
+                            El desarrollo web de aplicaciones web es aquel que permite crear estas herramientas a las que los usuarios podemos acceder a través de Internet o una intranet. Allí obtendremos información o podremos interactuar con elementos que nos permitan la comunicación entre nosotros, los usuarios, y la web.
+                            Este tipo de aplicaciones no están almacenadas en un ordenador o móvil sino que sus datos están en un servidor web o hosting el cual, además de contener toda esta información, luego nos la envía a nuestros dispositivos. Esto las hace muy prácticas pues no hay que descargar nada para poder acceder a ellas. Además de esto, vamos a ver qué otros beneficios tienen las aplicaciones web.
                         </p>
                     </div>
                 </article>
             </section>
-            <!--
-            <section class="questions__offer">
-                <h2 class="subtitle">Contratar Servicios</h2>
-                <p class="questions__copy">
-                    Si se encuentra interesado en contratar alguno de los servicios ofrecidos no dude en 
-                    contactar con nosotros, estamos a su servicio.
-                </p>
-                <a href="#" class="cta">Contratar</a>
-            </section>
-            -->
         </section>
 
-        <section class="knowledge">
+        <section id="about" class="knowledge">
             <div class="knowledge__container container">
                 <figure class="knowledge__picture">
                     <img src="./images/macbook.png" class="knowledge__img">
@@ -263,94 +247,26 @@
                     </p>
                     <a href="#" class="cta">Ver Servicios</a>
                 </div>
-
             </div>
         </section>
-
-        
-        <!-- Barra de Pago
-        <section class="price container">
-            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
-
-            <div class="price__table">
-                <div class="price__element">
-                    <p class="price__name">Flexbox</p>
-                    <h3 class="price__price">Free</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Flexbox</p>
-                        <p class="price__features">Layouts</p>
-                        <p class="price__features">Responsive</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
-
-
-                <div class="price__element price__element--best">
-                    <p class="price__name">Grid</p>
-                    <h3 class="price__price">$30/mes</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Grid</p>
-                        <p class="price__features">Implicit Grid</p>
-                        <p class="price__features">Responsive</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
-
-
-                <div class="price__element">
-                    <p class="price__name">Animaciones</p>
-                    <h3 class="price__price">$40/mes</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Animation</p>
-                        <p class="price__features">Transition</p>
-                        <p class="price__features">Render Website</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
-
-
-            </div>
-        </section>
-        -->
-        
-
-
     </main>
 
     <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
                 <h2 class="footer__title">Servicios en Desarrollo de Software</h2>
-
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
                         <a href="#" class="nav__links">Inicio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de</a>
+                        <a href="#about" class="nav__links">Acerca de</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
+                        <a href="#equipo" class="nav__links">Equipo</a>
                     </li>
                 </ul>
             </nav>
-
-            <!-- 
-            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
-                <div class="footer__inputs">
-                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
-                    <input type="submit" value="Registrate" class="footer__submit">
-                </div>
-            </form>
-            -->
-            
         </section>
 
         <section class="footer__copy container">
@@ -359,7 +275,6 @@
                 <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
                 <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
             </div>
-
             <h3 class="footer__copyright">Derechos reservados &copy; Ajolotes</h3>
         </section>
     </footer>
